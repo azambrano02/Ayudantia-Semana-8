@@ -22,5 +22,13 @@ public class Persona {
 		this.correoElectronico = correoElectronico;
 	}
 
+	public Persona(String nombre, String rut, String correoElectronico) {
+		this.nombre = nombre;
+		this.rut = rut;
+		this.correoElectronico = correoElectronico;
+	}
+	@Override
+	public String toString() {
+		return "Nombre: " + nombre + ", Rut: " + rut + ", Correo Electronico: " + correoElectronico;
 
 }
