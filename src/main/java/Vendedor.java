@@ -1,23 +1,23 @@
 public class Vendedor extends Persona {
-	private String idVendedor;
+	private String ID;
 
-	public Vendedor (String nombre, String rut, String correoElectronico, String idVendedor){
-		super(nombre, rut, correoElectronico);
-		this.idVendedor = idVendedor;
+	public Vendedor (String nombre, String rut, String direccion, String ID){
+		super(nombre, rut, direccion);
+		this.ID = ID;
 	}
-	public String getIdVendedor() {
-		return this.idVendedor = idVendedor;
+	public String getID() {
+		return this.ID = ID;
 	}
-	public void setIdVendedor(String idVendedor) {
-		this.idVendedor = idVendedor;
+	public void setID(String ID) {
+		this.ID = ID;
 	}
 
 	@Override
 	public String toString() {
-		return "Nombre: " + nombre + ", Rut: " + rut + ", Correo Electronico: " + correoElectronico + ", ID Cliente: " + idVendedor;
+		return "Nombre: " + nombre + ", Rut: " + rut + ", Direccion: " + direccion + ", ID: " + ID;
 	}
-	public void actualizarCorreoElectronico(String nuevoCorreoElectronico) {
-		this.correoElectronico = nuevoCorreoElectronico;
+	public void cambiarDireccion(String nuevaDireccion) {
+		this.direccion = nuevaDireccion;
 	}
 
 }
