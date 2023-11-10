@@ -27,6 +27,8 @@ public class Persona {
 		this.rut = rut;
 		this.correoElectronico = correoElectronico;
 	}
-
+	@Override
+	public String toString() {
+		return "Nombre: " + nombre + ", Rut: " + rut + ", Correo Electronico: " + correoElectronico;
 
 }

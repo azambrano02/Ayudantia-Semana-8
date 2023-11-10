@@ -13,5 +13,8 @@ public class Cliente extends Persona {
 		this.idCliente = idCliente;
 	}
 
-
+	@Override
+	public String toString() {
+		return "Nombre: " + nombre + ", Rut: " + rut + ", Correo Electronico: " + correoElectronico + ", ID Cliente: " + idCliente;
+	}
 }

@@ -12,6 +12,9 @@ public class Vendedor extends Persona {
 		this.idVendedor = idVendedor;
 	}
 
-
+	@Override
+	public String toString() {
+		return "Nombre: " + nombre + ", Rut: " + rut + ", Correo Electronico: " + correoElectronico + ", ID Cliente: " + idVendedor;
+	}
 
 }
