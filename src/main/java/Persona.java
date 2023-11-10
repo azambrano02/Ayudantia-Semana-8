@@ -36,7 +36,6 @@ public class Persona {
 	@Override
 	public String toString() {
 		return "Nombre: " + nombre + ", Rut: " + rut + ", Direccion: " + direccion;
-
 	}
 	public void cambiarDireccion(String nuevaDireccion) {
 		this.direccion = nuevaDireccion;

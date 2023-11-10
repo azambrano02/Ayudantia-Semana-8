@@ -1,9 +1,9 @@
 public class Vendedor extends Persona {
 	private String ID;
 
-	public Vendedor (String nombre, String rut, String direccion, String idVendedor){
+	public Vendedor (String nombre, String rut, String direccion, String ID){
 		super(nombre, rut, direccion);
-		this.ID = idVendedor;
+		this.ID = ID;
 	}
 	public String getID() {
 		return this.ID = ID;

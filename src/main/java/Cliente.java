@@ -5,7 +5,6 @@ public class Cliente extends Persona {
 		super(nombre, rut, direccion);
 		this.edad = edad;
 	}
-
 	public String getEdad() {
 		return this.edad;
 	}
