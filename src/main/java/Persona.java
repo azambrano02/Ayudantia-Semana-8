@@ -22,5 +22,11 @@ public class Persona {
 		this.correoElectronico = correoElectronico;
 	}
 
+	public Persona(String nombre, String rut, String correoElectronico) {
+		this.nombre = nombre;
+		this.rut = rut;
+		this.correoElectronico = correoElectronico;
+	}
+
 
 }
