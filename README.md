@@ -1,3 +1,3 @@
 # Problemática : Seguros
 # Diagrama UML
-![image](https://github.com/azambrano02/Ayudantia-Semana-8/assets/146024498/71e87c11-4deb-4558-b904-074de4e43582)
+![image](https://github.com/azambrano02/ayudantia-semana-7/assets/146024498/76c8c5da-db41-4658-8762-27d2c0544f31)
