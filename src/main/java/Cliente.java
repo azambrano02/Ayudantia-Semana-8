@@ -1,23 +1,23 @@
 public class Cliente extends Persona {
-	private String idCliente;
+	private String edad;
 
-	public Cliente(String nombre, String rut, String correoElectronico, String idCliente) {
-		super(nombre, rut, correoElectronico);
-		this.idCliente = idCliente;
+	public Cliente(String nombre, String rut, String direccion, String edad) {
+		super(nombre, rut, direccion);
+		this.edad = edad;
 	}
 
-	public String getIdCliente() {
-		return this.idCliente;
+	public String getEdad() {
+		return this.edad;
 	}
-	public void setIdCliente(String idCliente) {
-		this.idCliente = idCliente;
+	public void setEdad(String edad) {
+		this.edad = edad;
 	}
 
 	@Override
 	public String toString() {
-		return "Nombre: " + nombre + ", Rut: " + rut + ", Correo Electronico: " + correoElectronico + ", ID Cliente: " + idCliente;
+		return "Nombre: " + nombre + ", Rut: " + rut + ", Direccion: " + direccion + ", Edad: " + edad;
 	}
-	public void actualizarCorreoElectronico(String nuevoCorreoElectronico) {
-		this.correoElectronico = nuevoCorreoElectronico;
+	public void cambiarDireccion(String nuevaDireccion) {
+		this.direccion = nuevaDireccion;
 	}
 }

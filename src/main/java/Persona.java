@@ -1,7 +1,7 @@
 public class Persona {
 	protected String nombre;
 	protected String rut;
-	protected String correoElectronico;
+	protected String direccion;
 
 	public String getNombre() {
 		return this.nombre;
@@ -19,26 +19,26 @@ public class Persona {
 		this.rut = rut;
 	}
 
-	public String getCorreoElectronico() {
-		return this.correoElectronico;
+	public String getDireccion() {
+		return this.direccion;
 	}
 
-	public void setCorreoElectronico(String correoElectronico) {
-		this.correoElectronico = correoElectronico;
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
 	}
 
-	public Persona(String nombre, String rut, String correoElectronico) {
+	public Persona(String nombre, String rut, String direccion) {
 		this.nombre = nombre;
 		this.rut = rut;
-		this.correoElectronico = correoElectronico;
+		this.direccion = direccion;
 	}
 
 	@Override
 	public String toString() {
-		return "Nombre: " + nombre + ", Rut: " + rut + ", Correo Electronico: " + correoElectronico;
+		return "Nombre: " + nombre + ", Rut: " + rut + ", Direccion: " + direccion;
 
 	}
-	public void actualizarCorreoElectronico(String nuevoCorreoElectronico) {
-		this.correoElectronico = nuevoCorreoElectronico;
+	public void cambiarDireccion(String nuevaDireccion) {
+		this.direccion = nuevaDireccion;
 	}
 }
