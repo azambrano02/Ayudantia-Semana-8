@@ -16,5 +16,8 @@ public class Vendedor extends Persona {
 	public String toString() {
 		return "Nombre: " + nombre + ", Rut: " + rut + ", Correo Electronico: " + correoElectronico + ", ID Cliente: " + idVendedor;
 	}
+	public void actualizarCorreoElectronico(String nuevoCorreoElectronico) {
+		this.correoElectronico = nuevoCorreoElectronico;
+	}
 
 }

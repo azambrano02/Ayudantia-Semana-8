@@ -17,4 +17,7 @@ public class Cliente extends Persona {
 	public String toString() {
 		return "Nombre: " + nombre + ", Rut: " + rut + ", Correo Electronico: " + correoElectronico + ", ID Cliente: " + idCliente;
 	}
+	public void actualizarCorreoElectronico(String nuevoCorreoElectronico) {
+		this.correoElectronico = nuevoCorreoElectronico;
+	}
 }
